@@ -18,28 +18,28 @@
             s.parentNode.insertBefore(t, s)
         }(window, document, 'script',
             'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1131358768870970');
+        fbq('init', '2962108440628307');
         fbq('track', 'PageView');
     </script>
     <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=1131358768870970&ev=PageView&noscript=1" /></noscript>
+            src="https://www.facebook.com/tr?id=2962108440628307&ev=PageView&noscript=1" /></noscript>
     <!-- End Meta Pixel Code -->
     <script>
-  function trackWhatsappAndOpen(a){
-    try {
-      var eventId = 'wapp-' + Date.now() + '-' + Math.random().toString(36).slice(2);
-      // Usa evento estándar "Contact" (recomendado por Meta para intención de contacto)
-      fbq('track', 'Contact', {channel: 'whatsapp', location: 'button'}, { eventID: eventId });
-      // Abre en nueva pestaña tras un microdelay para asegurar el envío
-      setTimeout(function(){ window.open(a.href, '_blank', 'noopener'); }, 120);
-      return false; // evita la navegación inmediata del <a>
-    } catch(e){
-      // fallback si fbq no está
-      window.open(a.href, '_blank', 'noopener');
-      return false;
-    }
-  }
-</script>
+        function trackWhatsappAndOpen(a) {
+            try {
+                var eventId = 'wapp-' + Date.now() + '-' + Math.random().toString(36).slice(2);
+                // Usa evento estándar "Contact" (recomendado por Meta para intención de contacto)
+                fbq('track', 'Contact', { channel: 'whatsapp', location: 'button' }, { eventID: eventId });
+                // Abre en nueva pestaña tras un microdelay para asegurar el envío
+                setTimeout(function () { window.open(a.href, '_blank', 'noopener'); }, 120);
+                return false; // evita la navegación inmediata del <a>
+            } catch (e) {
+                // fallback si fbq no está
+                window.open(a.href, '_blank', 'noopener');
+                return false;
+            }
+        }
+    </script>
     <style>
         .subtitulo {
             font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -390,12 +390,10 @@
         <p class="subtitulo">Crea tu usuario en whatsapp ahora!</p>
 
         <!-- Primer CTA -->
-        <a href="https://wa.me/5492235905828?text=Hola%20quiero%20mi%20bono%20del%20200%%20extra"
-   class="btn-whatsapp"
-   rel="noopener"
-   onclick="return trackWhatsappAndOpen(this);">
-  Reclamar Bono en WhatsApp
-</a>
+        <a href="https://wa.me/5492233556921?text=Hola%20quiero%20mi%20bono%20del%20200%%20extra" class="btn-whatsapp"
+            rel="noopener" onclick="return trackWhatsappAndOpen(this);">
+            Reclamar Bono en WhatsApp
+        </a>
         <p class="parrafo">🎰 +6000 SLOTS Y RULETAS EXCLUSIVAS🎰</p>
         <p class="parrafo">💸 RETIROS AL INSTANTE💸</p>
         <p class="parrafo">🍀 BONOS TODOS LOS DIAS🍀 </p>
@@ -407,12 +405,10 @@
 
         <!-- Segundo CTA -->
         <p class="subtexto">Oferta disponible por tiempo limitado ⏳</p>
-        <a href="https://wa.me/5492235905828?text=Hola%20quiero%20mi%20bono%20del%20200%%20extra"
-   class="btn-whatsapp"
-   rel="noopener"
-   onclick="return trackWhatsappAndOpen(this);">
-  Reclamar Bono en WhatsApp
-</a>
+        <a href="https://wa.me/5492233556921?text=Hola%20quiero%20mi%20bono%20del%20200%%20extra" class="btn-whatsapp"
+            rel="noopener" onclick="return trackWhatsappAndOpen(this);">
+            Reclamar Bono en WhatsApp
+        </a>
     </main>
     <!-- Carrusel abajo en móvil -->
     <div class="carousel mobile-bottom">
